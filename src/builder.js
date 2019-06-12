@@ -61,6 +61,9 @@ class Builder {
             case Config.chain.cosmos: {
                 return require('./chains/cosmos/builder')();
             }
+            case Config.chain.hashgard: {
+                return require('./chains/hashgard/builder')();
+            }
             default: {
                 throw new Error("not correct chain");
             }
