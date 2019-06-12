@@ -169,6 +169,7 @@
   "chain": {
     "iris": "iris",
     "ethermint": "ethermint",
-    "cosmos": "cosmos"
+    "cosmos": "cosmos",
+    "hashgard": "hashgard"
   }
 }
