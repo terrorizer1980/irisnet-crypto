@@ -94,4 +94,4 @@ class HashgardBuilder extends Builder {
         return stdTx
     }
 }
-module.exports = Old(hashgardBuilder);
+module.exports = Old(HashgardBuilder);
